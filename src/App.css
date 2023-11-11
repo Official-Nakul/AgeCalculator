@@ -26,6 +26,26 @@ p {
   align-items: center;
   max-width: 38em;
 }
+.userInput input {
+  box-sizing: border-box;
+  max-width: 4em;
+  font-size: 2em;
+  border-radius: 5px;
+  border: solid 1px hsl(0, 0%, 86%);
+  padding: 5px 5px 0px 6px;
+  box-sizing: border-box;
+}
+.userInput input::placeholder {
+  font-size: 1.3em;
+  /* padding: 20px 5px 5px 0px; */
+  text-align: center;
+}
+.userInput p {
+  color: hsl(0, 1%, 44%);
+  font-size: 0.75rem;
+  margin-bottom: 0.5em;
+  letter-spacing: 2px;
+}
 .btnArea {
   width: 43em;
   margin: 1em 0 0 0;
@@ -54,23 +74,6 @@ p {
 .btn > img {
   height: 2em;
   width: 2em;
-}
-.userInput input {
-  box-sizing: border-box;
-  height: 3.5em;
-  width: 8em;
-  border-radius: 5px;
-  border: solid 1px hsl(0, 0%, 86%);
-}
-.userInput input::placeholder {
-  font-size: 2em;
-  text-align: center;
-}
-.userInput p {
-  color: hsl(0, 1%, 44%);
-  font-size: 0.75rem;
-  margin-bottom: 0.5em;
-  letter-spacing: 2px;
 }
 .outputArea p {
   font-size: 5em;
