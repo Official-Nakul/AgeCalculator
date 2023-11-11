@@ -37,7 +37,6 @@ p {
 }
 .userInput input::placeholder {
   font-size: 1.3em;
-  /* padding: 20px 5px 5px 0px; */
   text-align: center;
 }
 .userInput p {
@@ -54,8 +53,6 @@ p {
   align-items: center;
 }
 .btnArea > hr {
-  /* position: absolute; */
-  /* right: 7.5em; */
   border: none;
   box-sizing: border-box;
   margin-left: 4.5em;
@@ -92,4 +89,8 @@ p {
   display: flex;
   align-items: center;
   margin-left: 4em;
+}
+.btn:hover {
+  background-color: hsl(0, 0%, 8%);
+  cursor: pointer;
 }
